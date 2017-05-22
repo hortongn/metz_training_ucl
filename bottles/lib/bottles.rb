@@ -19,7 +19,7 @@ class Bottles
     end
   end
 
-  def pronoun
+  def pronoun(number="use for now")
     "one"
   end
 
