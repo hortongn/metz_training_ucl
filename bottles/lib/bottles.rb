@@ -21,7 +21,7 @@ class Bottles
     end
   end
 
-  def container
+  def container(number="unused for now")
     "bottles"
   end
 
