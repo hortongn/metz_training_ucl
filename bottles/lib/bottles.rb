@@ -20,7 +20,11 @@ class Bottles
   end
 
   def pronoun(number="use for now")
-    "one"
+    if number == 1
+      "it"
+    else
+     "one"
+    end
   end
 
   def container(number)
