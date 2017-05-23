@@ -20,7 +20,11 @@ class Bottles
   end
 
   def amount(number)
-    number
+    if number == 0
+      "no more"
+    else
+      number
+    end
   end
 
   def pronoun(number)
