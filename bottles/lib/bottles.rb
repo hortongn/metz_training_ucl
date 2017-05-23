@@ -9,7 +9,10 @@ class Bottles
   end
 
   def verse(number)
-    "#{amount(number).capitalize} #{container(number)} of beer on the wall, #{amount(number)} #{container(number)} of beer.\n#{action(number)}, #{amount(successor(number))} #{container(number-1)} of beer on the wall.\n"
+    "#{amount(number).capitalize} #{container(number)} of beer on the wall, " +
+    "#{amount(number)} #{container(number)} of beer.\n" +
+    "#{action(number)}, " +
+    "#{amount(successor(number))} #{container(number-1)} of beer on the wall.\n"
   end
 
   def successor(number)
