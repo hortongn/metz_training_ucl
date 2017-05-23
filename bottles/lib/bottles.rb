@@ -19,7 +19,7 @@ class Bottles
     end
   end
 
-  def pronoun(number="use for now")
+  def pronoun(number)
     if number == 1
       "it"
     else
