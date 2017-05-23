@@ -19,7 +19,8 @@ class Bottles
     end
   end
 
-  def amount
+  def amount(number)
+    number
   end
 
   def pronoun(number)
