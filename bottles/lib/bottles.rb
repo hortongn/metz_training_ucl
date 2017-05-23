@@ -17,7 +17,8 @@ class Bottles
     end
   end
 
-  def successor
+  def successor(number)
+    number - 1
   end
 
   def action(number)
