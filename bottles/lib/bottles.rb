@@ -17,6 +17,9 @@ class Bottles
     end
   end
 
+  def action
+  end
+
   def amount(number)
     if number == 0
       "no more"
